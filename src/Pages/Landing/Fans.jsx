@@ -1,6 +1,6 @@
 const Fans = () => {
   return (
-    <div className="wrapper bg-fan py-[60px] lg:py-[100px]">
+    <div id="fans" className="wrapper bg-fan py-[60px] lg:py-[100px]">
       <div className="contain flex-col lg:flex-row justify-between items-center lg:items-start gap-[50px] sm:gap-[100px]">
         <img src="/fan-img.png" className="w-full max-w-[500px]" alt="" />
         <div className="flex  justify-start  items-start flex-col gap-5">

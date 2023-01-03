@@ -32,3 +32,7 @@ body {
 .album-slider .splide__track {
   padding-top: 40px;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block: 100px;
+}

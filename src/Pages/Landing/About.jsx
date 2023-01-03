@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="wrapper">
+    <div id="what" className="wrapper">
       <div className="contain lg:flex-row flex-col py-[60px] lg:py-[100px] justify-between items-center gap-[50px] lg:gap-[80px]">
         <img
           src="/about-img.png"

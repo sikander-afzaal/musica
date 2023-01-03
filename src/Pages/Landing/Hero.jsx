@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <div className="wrapper bg-center min-h-[700px] pb-[40px] h-auto lg:p-0 pt-[120px] lg:h-screen bg-hero bg-cover">
+    <div
+      id="home"
+      className="wrapper bg-center min-h-[700px] pb-[40px] h-auto lg:p-0 pt-[120px] lg:h-screen bg-hero bg-cover"
+    >
       <div className="contain lg:flex-row flex-col justify-between items-center gap-10 lg:gap-6">
         <div className="flex justify-start max-w-full lg:max-w-[582px] items-center lg:text-left text-center lg:items-start flex-col gap-7">
           <h2 className="text-white font-bold leading-[1.2] text-[33px] sm:text-[42px]">

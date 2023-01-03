@@ -36,34 +36,34 @@ const Header = () => {
           <a
             onClick={() => setHeaderToggle(false)}
             className="text-orange lg:text-white font-normal text-lg lg:text-base"
-            href="#home"
+            href="#how"
           >
             How it Works
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#service"
+            href="#fans"
             className="text-orange lg:text-white font-normal text-lg lg:text-base"
           >
             For Fans
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#about"
+            href="#artists"
             className="text-orange lg:text-white font-normal text-lg lg:text-base"
           >
             For Artist
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#work"
+            href="#our"
             className="text-orange lg:text-white font-normal text-lg lg:text-base"
           >
             Our Artist
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#work"
+            href="#drop"
             className="text-orange lg:text-white font-normal text-lg lg:text-base"
           >
             Drop Schedule

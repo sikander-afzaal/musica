@@ -3,7 +3,7 @@ import "@splidejs/react-splide/css";
 
 const Drop = () => {
   return (
-    <div className="wrapper mt-[0px] lg:mt-[100px]">
+    <div id="drop" className="wrapper mt-[0px] lg:mt-[100px]">
       <div className="contain justify-start items-center sm:items-start flex-col gap-6">
         <h2 className="text-heading font-bold text-[42px]">Latest Drop</h2>
         <div className="mt-[30px] w-full">

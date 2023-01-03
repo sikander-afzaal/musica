@@ -1,6 +1,6 @@
 const Work = () => {
   return (
-    <div className="wrapper py-[100px] ">
+    <div id="how" className="wrapper py-[100px] ">
       <div className="contain gap-[100px] justify-start items-center flex-col">
         <h2 className="text-heading text-center font-bold text-[28px] sm:text-[42px]">
           How Does Musica Work?

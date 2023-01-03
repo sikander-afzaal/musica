@@ -1,6 +1,6 @@
 const Artists = () => {
   return (
-    <div className="wrapper bg-artist py-[60px] lg:py-[100px]">
+    <div id="artists" className="wrapper bg-artist py-[60px] lg:py-[100px]">
       <div className="contain flex-col-reverse lg:flex-row justify-between items-center lg:items-start gap-[50px] sm:gap-[100px]">
         <div className="flex  justify-start  items-start flex-col gap-5">
           <h2 className="text-heading font-bold text-[36px] leading-[1]">
