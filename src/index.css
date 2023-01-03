@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Sui;
+  src: url("/fonts/SuisseIntl-Regular.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-center items-center flex-col w-full;
+  }
+  .orange-btn {
+    @apply text-white font-normal text-base bg-orange   h-[40px] hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-orange hover:text-orange transition-all;
+  }
+  .contain {
+    @apply flex w-full max-w-theme px-5;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
