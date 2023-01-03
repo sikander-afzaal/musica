@@ -2,6 +2,7 @@ import About from "./About";
 import Artists from "./Artists";
 import Fans from "./Fans";
 import Hero from "./Hero";
+import Work from "./Work";
 
 const Landing = () => {
   return (
@@ -10,6 +11,7 @@ const Landing = () => {
       <About />
       <Fans />
       <Artists />
+      <Work />
     </div>
   );
 };
