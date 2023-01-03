@@ -1,5 +1,6 @@
 import About from "./About";
 import Artists from "./Artists";
+import Drop from "./Drop";
 import Fans from "./Fans";
 import Hero from "./Hero";
 import Work from "./Work";
@@ -12,6 +13,7 @@ const Landing = () => {
       <Fans />
       <Artists />
       <Work />
+      <Drop />
     </div>
   );
 };

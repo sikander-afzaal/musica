@@ -21,9 +21,14 @@
     @apply flex w-full max-w-theme px-5;
   }
 }
-
+body {
+  background-color: #fefdf9;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.album-slider .splide__track {
+  padding-top: 40px;
 }

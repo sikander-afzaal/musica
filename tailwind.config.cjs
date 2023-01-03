@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         orange: "#FF5A00",
         heading: "#0F0A1A",
+        cream: "rgba(254, 253, 249, 0.8)",
       },
     },
   },
