@@ -13,10 +13,8 @@ const Hero = () => {
             from the artists you love and invest in.
           </p>
           <div className="flex justify-start items-center gap-3">
-            <button className="text-white font-normal text-base bg-orange    hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-orange hover:text-orange transition-all h-[50px] w-[106px]">
-              Sign Up
-            </button>
-            <button className="text-[#0F0A1A] w-[200px] h-[50px] font-normal flex justify-center items-center gap-4 text-base bg-white    hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-white hover:text-white transition-all">
+            <button className="orange-btn h-[50px] w-[106px]">Sign Up</button>
+            <button className="white-btn  w-[200px] h-[50px]">
               <img src="/play.png" alt="" /> How does it work
             </button>
           </div>

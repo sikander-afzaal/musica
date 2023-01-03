@@ -10,12 +10,16 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/hero-bg.png')",
+        fan: "linear-gradient(255.44deg, rgba(255, 184, 0, 0.07) 11.61%, rgba(255, 168, 0, 0) 100%)",
+        artist:
+          "linear-gradient(254.39deg, rgba(179, 21, 235, 0.09) 4.4%, rgba(179, 21, 235, 0) 99.46%)",
       },
       maxWidth: {
         theme: "1300px",
       },
       colors: {
         orange: "#FF5A00",
+        heading: "#0F0A1A",
       },
     },
   },

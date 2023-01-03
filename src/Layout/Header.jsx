@@ -1,9 +1,28 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
+  const [bg, setBg] = useState(false);
+  useEffect(() => {
+    const showBg = () => {
+      if (window.scrollY > 100) {
+        setBg(true);
+      } else {
+        setBg(false);
+      }
+    };
+    window.addEventListener("scroll", showBg);
+    return () => {
+      window.removeEventListener("scroll", showBg);
+    };
+  }, []);
+
   return (
-    <div className="wrapper fixed top-0 left-0">
+    <div
+      className={`wrapper fixed top-0 left-0 z-50 transition-all ${
+        bg ? "bg-heading" : ""
+      }`}
+    >
       {headerToggle && (
         <div className="fixed top-0 left-0 h-full w-full bg-black opacity-60 z-[88]"></div>
       )}
@@ -66,7 +85,7 @@ const Header = () => {
           <a
             onClick={() => setHeaderToggle(false)}
             href="#contact"
-            className="orange-btn grid place-items-center no-underline w-[125px]"
+            className="orange-btn h-[40px] grid place-items-center no-underline w-[125px]"
           >
             Get Started
           </a>

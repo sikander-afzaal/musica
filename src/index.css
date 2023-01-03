@@ -12,7 +12,10 @@
     @apply flex justify-center items-center flex-col w-full;
   }
   .orange-btn {
-    @apply text-white font-normal text-base bg-orange   h-[40px] hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-orange hover:text-orange transition-all;
+    @apply text-white font-normal text-base bg-orange   hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-orange hover:text-orange transition-all;
+  }
+  .white-btn {
+    @apply text-[#0F0A1A] font-normal flex justify-center items-center gap-4 text-base bg-white    hover:bg-transparent border-solid border-[2px] duration-500 border-transparent hover:border-white hover:text-white transition-all;
   }
   .contain {
     @apply flex w-full max-w-theme px-5;
