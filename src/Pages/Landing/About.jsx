@@ -12,17 +12,17 @@ const About = () => {
           <div className="absolute bg-[#FDA587] rounded-full w-5 h-5 right-0 sm:right-[10%] bottom-full sm:top-0 border-[3px] border-solid border-[#FC8860]"></div>
           <h3 className="text-heading font-normal leading-[1] text-center text-[35px] sm:text-[50px]">
             What is <span className="text-orange">Musica</span>
-            <p className=" text-lg sm:text-[22px] text-heading max-w-[520px] text-center sm:text-left leading-[1.6] mt-3 mb-6">
+            <p className=" text-lg sm:text-[22px] text-heading max-w-[520px]  leading-[1.6] mt-3 mb-6">
               Musica is an innovative online platform that gives artists control
               over their work and a way to share song ownership, streaming
               revenue and experiences with you -{" "}
               <span className="text-orange">their biggest fan.</span>
             </p>
             <div className="flex flex-col sm:flex-row w-full justify-center items-center gap-5">
-              <button className="border-solid border-orange bg-orange transition-all hover:bg-transparent hover:text-orange text-white border-[1px] text-[22px] w-full sm:w-[190px] h-[44px] rounded-full ">
+              <button className="orange-btn w-full sm:w-[114px] h-[50px]">
                 For Fans
               </button>
-              <button className="border-solid border-[#C3C3C3] border-[1px] transition-all hover:bg-[#c3c3c3] hover:text-white text-[22px] w-full sm:w-[190px] h-[44px] rounded-full">
+              <button className="border-solid bg-heading text-white font-base text-base border-heading border-[1px] transition-all hover:bg-transparent hover:text-heading  w-full sm:w-[117px] h-[50px] ">
                 For Artists
               </button>
             </div>

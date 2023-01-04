@@ -3,9 +3,12 @@ import "@splidejs/react-splide/css";
 
 const Drop = () => {
   return (
-    <div id="drop" className="wrapper mt-[0px] lg:mt-[100px]">
+    <div
+      id="drop"
+      className="wrapper bg-[#06040B] pt-[70px] pb-[70px] lg:pb-[450px] mt-[0px] lg:mt-[70px]"
+    >
       <div className="contain justify-start items-center sm:items-start flex-col gap-6">
-        <h2 className="text-heading font-bold text-[42px]">Latest Drop</h2>
+        <h2 className="text-white font-bold text-[42px]">Latest Drop</h2>
         <div className="mt-[30px] w-full">
           <Splide
             options={{
@@ -59,25 +62,20 @@ export default Drop;
 
 const AlbumCard = ({ img, name, desc }) => {
   return (
-    <div className="flex rounded-lg  justify-start relative bg-[rgba(255,255,255,0.1)] w-[300px] h-[300px] mix-blend-multiply isolate  items-start flex-col border-2 border-solid border-[#524d5a]">
-      <img
-        src="/texture.png"
-        className="absolute -z-10 rounded-lg w-full h-full object-cover"
-        alt=""
-      />
-      <div className="flex rounded-lg justify-start items-start flex-col bg-cream w-full h-full p-5 ">
+    <div className="flex rounded-lg  justify-start relative  bg-drop w-[300px] h-[300px] group  items-start flex-col border-2 hover:border-orange transition-all duration-500 border-solid border-[#524d5a]">
+      <div className="flex rounded-lg justify-start items-start flex-col w-full h-full p-5 group-hover:bg-orange bg-transparent transition-all duration-500">
         <img
           src={img}
           className="w-[170px] -translate-y-[30%]  h-[184px] object-cover"
           alt=""
         />
         <div className="flex -mt-[30px] w-full justify-start items-start flex-col gap-4">
-          <h3 className="text-heading font-normal leading-[1] text-[21px]">
+          <h3 className="text-white font-normal leading-[1] text-[21px]">
             {name}
           </h3>
-          <p className="text-heading font-normal text-lg leading-[1]">{desc}</p>
+          <p className="text-white font-normal text-lg leading-[1]">{desc}</p>
           <div className="w-full flex justify-between items-center gap-3">
-            <button className="bg-orange w-[201px] h-[36px] uppercase border-none flex justify-center items-center gap-2 text-heading text-base">
+            <button className="group-hover:bg-white bg-orange w-[201px] h-[36px] uppercase border-none flex justify-center items-center gap-2 group-hover:text-orange duration-500 transition-all text-white text-base">
               Visit Trackpacs{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +92,7 @@ const AlbumCard = ({ img, name, desc }) => {
                 />
               </svg>
             </button>
-            <p className="text-heading text-lg">20</p>
+            <p className="text-white text-lg">20</p>
           </div>
         </div>
       </div>

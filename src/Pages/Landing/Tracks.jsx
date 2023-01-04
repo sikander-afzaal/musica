@@ -1,7 +1,7 @@
 const Tracks = () => {
   return (
-    <div id="our" className="wrapper mt-[100px] md:mt-[220px]">
-      <div className="contain flex-col justify-start items-center bg-[#F1F0ED] p-[50px]">
+    <div id="our" className="wrapper mt-[80px] md:mt-[160px] lg:-mt-[14%]">
+      <div className="contain flex-col border-t-[13px] border-t-orange border-solid justify-start items-center bg-[#F1F0ED] p-[50px]">
         <div className="w-full flex justify-between items-center relative">
           <div className="flex md:w-auto w-full justify-start items-center md:items-start flex-col">
             <h6 className="text-[#7D7A84] text-xs font-normal">TRACKPAD</h6>

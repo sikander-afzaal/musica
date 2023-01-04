@@ -1,6 +1,6 @@
 const Fans = () => {
   return (
-    <div id="fans" className="wrapper bg-fan py-[60px] lg:py-[100px]">
+    <div id="fans" className="wrapper  py-[60px] lg:py-[100px]">
       <div className="contain flex-col lg:flex-row justify-between items-center lg:items-start gap-[50px] sm:gap-[100px]">
         <img src="/fan-img.png" className="w-full max-w-[500px]" alt="" />
         <div className="flex  justify-start  items-start flex-col gap-5">
@@ -50,7 +50,7 @@ const Fans = () => {
               </p>
             </div>
           </div>
-          <button className="flex mt-4 justify-center items-center gap-3 bg-heading text-white w-[280px] h-[50px] text-base font-normal border-2 duration-700 border-solid border-heading hover:bg-transparent hover:text-heading transition-all">
+          <button className="flex mt-4 justify-center items-center gap-3 bg-orange text-white w-[280px] h-[50px] text-base font-normal border-2 duration-700 border-solid border-orange hover:bg-transparent hover:text-heading transition-all">
             More About Musica for Fans{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"

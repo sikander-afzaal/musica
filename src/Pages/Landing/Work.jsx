@@ -1,11 +1,17 @@
 const Work = () => {
   return (
-    <div id="how" className="wrapper py-[100px] ">
+    <div id="how" className="wrapper py-[70px] sm:py-[100px] ">
       <div className="contain gap-[100px] justify-start items-center flex-col">
-        <h2 className="text-heading text-center font-bold text-[28px] sm:text-[42px]">
-          How Does Musica Work?
-        </h2>
-        <div className="flex md:flex-row flex-col-reverse justify-between w-full gap-[50px] md:gap-[80px] max-w-[800px] items-center ">
+        <div className="flex justify-center items-center flex-col gap-2">
+          <h2 className="text-heading text-center font-bold text-[28px] sm:text-[42px]">
+            How Does Musica Work?
+          </h2>
+          <p className="mb-2 leading-[1.6] text-heading text-lg max-w-[564px] text-center">
+            Invest in your favorite artists and share in their success by
+            earning a portion of their royalties
+          </p>
+        </div>
+        <div className="flex md:flex-row flex-col-reverse justify-between w-full gap-[50px] md:gap-[80px] max-w-[850px] items-center ">
           <div className="flex justify-start items-start flex-col gap-2">
             <img
               src="/work-ico1.png"
@@ -62,7 +68,7 @@ const Work = () => {
             alt=""
           />
         </div>
-        <div className="flex md:flex-row flex-col justify-between w-full gap-[50px] md:gap-[80px] max-w-[800px] items-center ">
+        <div className="flex md:flex-row flex-col justify-between w-full gap-[50px] md:gap-[80px] max-w-[850px] items-center ">
           <img
             src="/work2.png"
             className="w-full max-w-[350px] object-contain"
@@ -101,7 +107,7 @@ const Work = () => {
             </p>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col-reverse justify-between w-full gap-[50px] md:gap-[80px] max-w-[800px] items-center ">
+        <div className="flex md:flex-row flex-col-reverse justify-between w-full gap-[50px] md:gap-[80px] max-w-[850px] items-center ">
           <div className="flex justify-start items-start flex-col gap-2">
             <img
               src="/work-ico3.png"
@@ -140,7 +146,7 @@ const Work = () => {
             alt=""
           />
         </div>
-        <div className="flex md:flex-row flex-col justify-between w-full gap-[50px] md:gap-[80px] max-w-[800px] items-center ">
+        <div className="flex md:flex-row flex-col justify-between w-full gap-[50px] md:gap-[80px] max-w-[850px] items-center ">
           <img
             src="/work4.png"
             className="w-full max-w-[350px] object-contain"
@@ -179,7 +185,7 @@ const Work = () => {
             </p>
           </div>{" "}
         </div>
-        <div className="flex md:flex-row flex-col-reverse justify-between w-full gap-[50px] md:gap-[80px] max-w-[800px] items-center ">
+        <div className="flex md:flex-row flex-col-reverse justify-between w-full gap-[50px] md:gap-[80px] max-w-[850px] items-center ">
           <div className="flex justify-start items-start flex-col gap-2">
             <img
               src="/work-ico5.png"

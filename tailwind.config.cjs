@@ -11,9 +11,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('/hero-bg.png')",
         passive: "url('/passive-bg.png')",
-        fan: "linear-gradient(255.44deg, rgba(255, 184, 0, 0.07) 11.61%, rgba(255, 168, 0, 0) 100%)",
-        artist:
-          "linear-gradient(254.39deg, rgba(179, 21, 235, 0.09) 4.4%, rgba(179, 21, 235, 0) 99.46%)",
+        drop: "linear-gradient(180deg, #1F1D24 0%, #06040B 100%)",
       },
       maxWidth: {
         theme: "1300px",

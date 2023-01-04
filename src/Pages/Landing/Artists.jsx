@@ -1,6 +1,6 @@
 const Artists = () => {
   return (
-    <div id="artists" className="wrapper bg-artist py-[60px] lg:py-[100px]">
+    <div id="artists" className="wrapper  py-[60px] lg:py-[100px]">
       <div className="contain flex-col-reverse lg:flex-row justify-between items-center lg:items-start gap-[50px] sm:gap-[100px]">
         <div className="flex  justify-start  items-start flex-col gap-5">
           <h2 className="text-heading font-bold text-[36px] leading-[1]">
@@ -46,7 +46,7 @@ const Artists = () => {
               <p className="text-heading">Maintain control of your work</p>
             </div>
           </div>
-          <button className="flex mt-4 justify-center items-center gap-3 bg-heading text-white w-[280px] h-[50px] text-base font-normal border-2 duration-700 border-solid border-heading hover:bg-transparent hover:text-heading transition-all">
+          <button className="flex mt-4 justify-center items-center gap-3 bg-orange text-white w-[280px] h-[50px] text-base font-normal border-2 duration-700 border-solid border-orange hover:bg-transparent hover:text-heading transition-all">
             More About Musica for Artists{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
