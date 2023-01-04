@@ -26,7 +26,18 @@ const Header = () => {
       {headerToggle && (
         <div className="fixed top-0 left-0 h-full w-full bg-black opacity-60 z-[88]"></div>
       )}
-      <div className="contain h-[100px] justify-between items-center">
+      <div className="contain h-[120px] justify-between items-center relative">
+        <div className="flex justify-start items-center absolute gap-5 px-5 right-0 top-[10px]">
+          <a href="#" className="text-xs font-normal text-white opacity-70">
+            About
+          </a>
+          <a href="#" className="text-xs font-normal text-white opacity-70">
+            Contact
+          </a>
+          <a href="#" className="text-xs font-normal text-white opacity-70">
+            Help Center
+          </a>
+        </div>
         <img className="object-contain w-[164px]" src="/logo.png" alt="" />
         <nav
           className={`flex z-[89] lg:static fixed top-0 transition-all duration-1000 ${

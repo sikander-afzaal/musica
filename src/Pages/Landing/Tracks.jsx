@@ -1,8 +1,8 @@
 const Tracks = () => {
   return (
     <div id="our" className="wrapper mt-[80px] md:mt-[160px] lg:-mt-[14%]">
-      <div className="contain flex-col border-t-[13px] border-t-orange border-solid justify-start items-center bg-[#F1F0ED] p-[50px]">
-        <div className="w-full flex justify-between items-center relative">
+      <div className="contain flex-col border-t-[13px] border-t-orange border-solid justify-start items-center bg-[#F1F0ED] py-[50px]">
+        <div className="w-full px-5 flex justify-between items-center relative">
           <div className="flex md:w-auto w-full justify-start items-center md:items-start flex-col">
             <h6 className="text-[#7D7A84] text-xs font-normal">TRACKPAD</h6>
             <h3 className="text-heading font-bold text-[30px] sm:text-[42px]">
@@ -15,7 +15,7 @@ const Tracks = () => {
             alt=""
           />
         </div>
-        <div className="flex justify-start items-center mt-[50px] md:mt-[120px] flex-col w-full gap-5">
+        <div className="flex justify-start items-center mt-[50px] px-5 md:mt-[120px] flex-col w-full gap-5">
           <TrackRow
             date={{ month: "Feb", day: 18 }}
             name="Track Packs 01"

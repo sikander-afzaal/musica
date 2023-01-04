@@ -7,52 +7,38 @@ const Drop = () => {
       id="drop"
       className="wrapper bg-[#06040B] pt-[70px] pb-[70px] lg:pb-[450px] mt-[0px] lg:mt-[70px]"
     >
-      <div className="contain justify-start items-center sm:items-start flex-col gap-6">
+      <div className="flex w-full max-w-[90%] justify-start items-center sm:items-start flex-col gap-6">
         <h2 className="text-white font-bold text-[42px]">Latest Drop</h2>
-        <div className="mt-[30px] w-full">
-          <Splide
-            options={{
-              arrows: false,
-              pagination: false,
-              autoWidth: true,
-              type: "loop",
-              perMove: 1,
-              drag: true,
-              width: "100%",
-              gap: "2rem",
-            }}
-            className="album-slider"
-          >
-            <SplideSlide>
-              <AlbumCard
-                img={"/album-cover.png"}
-                name="Ditto"
-                desc="NewDitto"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <AlbumCard
-                img={"/album-cover.png"}
-                name="Ditto"
-                desc="NewDitto"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <AlbumCard
-                img={"/album-cover.png"}
-                name="Ditto"
-                desc="NewDitto"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <AlbumCard
-                img={"/album-cover.png"}
-                name="Ditto"
-                desc="NewDitto"
-              />
-            </SplideSlide>
-          </Splide>
-        </div>
+      </div>
+      <div className="mt-[30px] w-full">
+        <Splide
+          options={{
+            arrows: false,
+            pagination: false,
+            autoWidth: true,
+            type: "loop",
+            perMove: 1,
+            autoplay: true,
+            drag: true,
+            focus: "center",
+            width: "100%",
+            gap: "2rem",
+          }}
+          className="album-slider"
+        >
+          <SplideSlide>
+            <AlbumCard img={"/album-cover.png"} name="Ditto" desc="NewDitto" />
+          </SplideSlide>
+          <SplideSlide>
+            <AlbumCard img={"/album-cover.png"} name="Ditto" desc="NewDitto" />
+          </SplideSlide>
+          <SplideSlide>
+            <AlbumCard img={"/album-cover.png"} name="Ditto" desc="NewDitto" />
+          </SplideSlide>
+          <SplideSlide>
+            <AlbumCard img={"/album-cover.png"} name="Ditto" desc="NewDitto" />
+          </SplideSlide>
+        </Splide>
       </div>
     </div>
   );

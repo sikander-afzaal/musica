@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="wrapper lg:mt-[100px] bg-[#06040B] pt-[60px] pb-[20px] mt-[70px]">
       <footer className="contain lg:flex-row flex-col lg:gap-0 gap-6 justify-between items-center lg:items-start">
         <div className="flex justify-start items-center lg:text-left text-center lg:items-start flex-col gap-5">
-          <img src="/logo2.png" alt="" />
+          <img src="/ico.png" alt="" />
           <p className="text-white max-w-[350px] leading-[1.6]">
             Join our Newsletter and get the latest drops, news and promotions
             delivered right to your inbox.
