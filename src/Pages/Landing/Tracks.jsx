@@ -1,6 +1,9 @@
 const Tracks = () => {
   return (
-    <div id="our" className="wrapper mt-[80px] md:mt-[160px] lg:-mt-[14%]">
+    <div
+      id="our"
+      className="wrapper relative z-20 mt-[80px] md:mt-[160px] lg:-mt-[14%]"
+    >
       <div className="contain flex-col border-t-[13px] border-t-orange border-solid justify-start items-center bg-[#F1F0ED] py-[50px]">
         <div className="w-full px-5 flex justify-between items-center relative">
           <div className="flex md:w-auto w-full justify-start items-center md:items-start flex-col">

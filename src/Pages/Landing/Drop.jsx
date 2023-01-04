@@ -5,8 +5,9 @@ const Drop = () => {
   return (
     <div
       id="drop"
-      className="wrapper bg-[#06040B] pt-[70px] pb-[70px] lg:pb-[450px] mt-[0px] lg:mt-[70px]"
+      className="wrapper isolate relative bg-[#06040B] pt-[70px] pb-[70px] lg:pb-[450px] mt-[0px] lg:mt-[70px]"
     >
+      <div className="absolute -z-10 -left-[20%] w-[1220px] h-[235px] top-[10%] bg-[#A8A6AD] opacity-20 blur-[90px]"></div>
       <div className="flex w-full max-w-[90%] mb-5 justify-start items-center sm:items-start flex-col gap-6">
         <h2 className="text-white font-bold text-[42px]">Latest Drop</h2>
       </div>
