@@ -60,8 +60,8 @@ const AlbumCard = ({ img, name, desc }) => {
             {name}
           </h3>
           <p className="text-white font-normal text-lg leading-[1]">{desc}</p>
-          <div className="w-full flex justify-between items-center gap-3">
-            <button className="group-hover:bg-white bg-orange w-[201px] h-[36px] uppercase border-none flex justify-center items-center gap-2 group-hover:text-orange duration-500 transition-all text-white text-base">
+          <div className="w-full flex justify-between mt-1 items-center gap-3">
+            <button className="group-hover:bg-white bg-orange min-w-[201px] h-[36px] uppercase border-none flex justify-center items-center gap-2 group-hover:text-orange duration-500 transition-all text-white text-base">
               Visit Trackpacs{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
