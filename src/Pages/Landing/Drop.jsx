@@ -7,7 +7,7 @@ const Drop = () => {
       id="drop"
       className="wrapper bg-[#06040B] pt-[70px] pb-[70px] lg:pb-[450px] mt-[0px] lg:mt-[70px]"
     >
-      <div className="flex w-full max-w-[90%] justify-start items-center sm:items-start flex-col gap-6">
+      <div className="flex w-full max-w-[90%] mb-5 justify-start items-center sm:items-start flex-col gap-6">
         <h2 className="text-white font-bold text-[42px]">Latest Drop</h2>
       </div>
       <div className="mt-[30px] w-full">
