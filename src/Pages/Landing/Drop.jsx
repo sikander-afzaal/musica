@@ -49,7 +49,7 @@ export default Drop;
 
 const AlbumCard = ({ img, name, desc }) => {
   return (
-    <div className="flex rounded-lg  justify-start relative  bg-drop w-[300px] h-[300px] group  items-start flex-col border-2 hover:border-orange transition-all duration-500 border-solid border-[#524d5a]">
+    <div className="flex rounded-lg  justify-start relative  bg-drop min-w-[300px] h-[300px] group  items-start flex-col border-2 hover:border-orange transition-all duration-500 border-solid border-[#524d5a]">
       <div className="flex rounded-lg justify-start items-start flex-col w-full h-full p-5 group-hover:bg-orange bg-transparent transition-all duration-500">
         <img
           src={img}
